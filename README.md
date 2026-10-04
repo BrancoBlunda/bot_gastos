@@ -4,7 +4,7 @@
 
 Este proyecto es un bot de WhatsApp completamente funcional, diseñado para automatizar el registro de gastos. El bot utiliza tecnologías de Visión por Computadora (OCR) e Inteligencia Artificial (IA) para leer, entender y archivar tickets de compra enviados como imágenes a través de WhatsApp.
 
-La aplicación está desplegada en la nube y operativa 24/7, proporcionando una solución eficiente y a medida para la gestión de finanzas personales o de pequeños negocios.
+La aplicación estuvo desplegada en la nube funcionando 24/7, como una solución eficiente y a medida para la gestión de finanzas personales o de pequeños negocios.
 
 ---
 
@@ -56,3 +56,7 @@ El sistema está diseñado con una arquitectura robusta y modular, separando la 
 4.  Un **hilo de trabajo (`worker thread`)** toma la tarea de la cola.
 5.  El worker descarga la imagen, la procesa con **Tesseract y Gemini**, y guarda los datos en **Google Sheets**.
 6.  Durante el proceso, el worker utiliza la **API REST de Twilio** para enviar mensajes de estado ("Procesando...", "¡Completado!") al usuario.
+
+---
+
+Más proyectos en https://brancoblunda.github.io
